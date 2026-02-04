@@ -22,8 +22,8 @@ function Get-ProfileContent {
 
 function Install-Toolkit {
   if (-not (Test-Path $ConfigSrc)) {
-    Write-Error "未找到配置文件: $ConfigSrc"
-    return
+    Write-Host "错误: 未找到配置文件: $ConfigSrc" -ForegroundColor Red
+    exit 1
   }
   New-Item -ItemType Directory -Path $TargetDir -Force | Out-Null
   Copy-Item $ConfigSrc $TargetFile -Force

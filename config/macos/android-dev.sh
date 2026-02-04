@@ -97,8 +97,8 @@ alias gtrace="python3 ${PLATFORM_TOOLS}/systrace/systrace.py 2>/dev/null || echo
 # -----------------------------------------------------------------------------
 # APK 签名
 # -----------------------------------------------------------------------------
-alias dsign='java -jar ${TOOLS_DROID}/gf_signkey/signapk.jar ${TOOLS_DROID}/gf_signkey/platform.x509.pem ${TOOLS_DROID}/gf_signkey/platform.pk8'
-alias gsign='java -jar ${TOOLS_DROID}/google_signkey/signapk.jar ${TOOLS_DROID}/google_signkey/platform.x509.pem ${TOOLS_DROID}/google_signkey/platform.pk8'
+alias dsign="java -jar ${TOOLS_DROID}/gf_signkey/signapk.jar ${TOOLS_DROID}/gf_signkey/platform.x509.pem ${TOOLS_DROID}/gf_signkey/platform.pk8"
+alias gsign="java -jar ${TOOLS_DROID}/google_signkey/signapk.jar ${TOOLS_DROID}/google_signkey/platform.x509.pem ${TOOLS_DROID}/google_signkey/platform.pk8"
 
 # -----------------------------------------------------------------------------
 # 替换 APK / SO

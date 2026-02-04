@@ -168,7 +168,6 @@
 | `dlogcat` | gf logcat 脚本 |
 | `rkld` / `rkuf` / `rkdi` | upgrade_tool 子命令 |
 | `freset` | 恢复出厂 |
-| `delog` | gf 日志解码 |
 
 ---
 

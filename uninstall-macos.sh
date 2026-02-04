@@ -4,7 +4,7 @@
 # 从 .zshrc/.bashrc 移除注入并删除 ~/.android-dev-toolkit
 # =============================================================================
 
-set -e
+# 不使用 set -e，允许部分操作失败时继续执行清理
 
 TOOLKIT_NAME="android-dev-toolkit"
 TARGET_DIR="${HOME}/.${TOOLKIT_NAME}"

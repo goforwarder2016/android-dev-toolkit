@@ -3,7 +3,8 @@
 # 从 PowerShell 用户配置移除加载语句并删除 $env:USERPROFILE\.android-dev-toolkit
 # =============================================================================
 
-$ErrorActionPreference = "Stop"
+# 不使用 Stop，允许部分操作失败时继续执行清理
+$ErrorActionPreference = "Continue"
 $ToolkitName = "android-dev-toolkit"
 $TargetDir = Join-Path $env:USERPROFILE ".$ToolkitName"
 $TargetFile = Join-Path $TargetDir "android-dev.ps1"
