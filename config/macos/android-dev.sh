@@ -116,7 +116,6 @@ alias rkld="${TOOLS_DROID}/upgrade_tool ld 2>/dev/null || true"
 alias rkuf="${TOOLS_DROID}/upgrade_tool uf 2>/dev/null || true"
 alias rkdi="${TOOLS_DROID}/upgrade_tool di 2>/dev/null || true"
 alias freset="${TOOLS_DROID}/factory_reset.sh 2>/dev/null || true"
-alias delog="cp ${TOOLS_DROID}/../Log_Encode/ON_New_Decode.jar . 2>/dev/null && java -jar ./ON_New_Decode.jar || true"
 
 # -----------------------------------------------------------------------------
 # Fastboot（需在 bootloader 模式）
